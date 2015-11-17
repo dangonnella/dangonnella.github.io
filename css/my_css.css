@@ -1,0 +1,9 @@
+.bullet_list{
+	list-style: outside square none;
+}
+.bullet_list_in{
+	list-style: inside square none;
+}
+.label-italk{
+	background-color: #73D94F;
+}
