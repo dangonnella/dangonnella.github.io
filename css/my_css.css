@@ -34,3 +34,8 @@
     font-weight: 300;
 	text-align: center;
 }
+.block-single h2.large-title{
+	font-size:25px;
+	letter-spacing:5px;
+	line-height:50px;
+}
