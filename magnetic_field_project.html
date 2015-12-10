@@ -108,7 +108,16 @@
 											<div class="col-md-10 col-md-offset-1">
 												<h1 class="large-title margBSSmall">Understanding the Effects of Ambient Magnetic Field 
 												on Cavity Performance</h1>
-													<p class="margBSSmall">
+													<p class="margBSSmall">During my graduate studies I have focused on cavity preparations to maximize the quality factor
+													of SRF cavities. It has been well understood that a major limiting factor to cavity performance is the ambient magnetic
+													field that is present when the cavity transitions from normal conducting to superconducting. This is because some magnetic
+													flux gets trapped in the cavity walls which results in losses. While the ideas of magnetic field causing weakened performance
+													is not new, the exact mechanisms and characteristics were not well understood.
+													</p>
+													<p class="margBSSmall">In order to understand how ambient magnetic fields affect cavity performance, I developed a research
+													program to study the effects on single-cells in an R&D mode and on 9-cells in a full cryomodule. There are two main regions
+													that I studied: how cooling dynamics near T<sub>c</sub> affects the amount of magnetic flux that gets trapped in the cavity,
+													and how trapped flux affects performance and depends on cavity preparation.
 													</p>
 
 													
@@ -120,7 +129,7 @@
 										
 										<div class="block-single margBottom clearfix">
 											<div class="col-md-10 col-md-offset-1">
-												<h2 class="large-title margBSSmall">Cool Down Dynamics and Surface Resistance</h2>
+												<h2 class="large-title margBSSmall">Experimental Setup</h2>
 											
 											</div>
 											
@@ -132,7 +141,9 @@
 											</figure>
 											</div>
 											<div class="col-md-5">
-													<p class="margBSSmall">
+													<p class="margBSSmall"><br><br><br>To study the effects of ambient magnetic field on cavity performance, I primarily used
+													five single-cell cavities constructed at Cornell. Additionally, I used the Cornell Horizontal Test Cryomodule (HTC)
+													to conduct measurements on 9-cell cavities. 
 													</p>	
 											</div>
 											
@@ -140,18 +151,65 @@
 
 										</div>	
 										
+										<div class="block-single margBottom clearfix">
+											
+											<div class="col-md-10 col-md-offset-1">
+											<img src="img/portfolio/Magnetic/magnetic_field_setup_slide.jpg" alt="">
+											</div>
+										</div>
 										
 										<div class="block-single margBottom clearfix">
+											<div class="col-md-10 col-md-offset-1">
+													<p class="margBSSmall">For the measurements on single-cell cavities, I constructed a Helmholtz coil to apply
+													a uniform external magnetic field parallel to the cavity axis. Temperature sensors were placed on the bottom
+													and top flanges and the equator to measure cool down rates and gradients and a fluxgate magnetometer was placed
+													at the iris to measure applied magnetic field and trapped magnetic flux. In order to control the cooling dynamics,
+													I used a slow cool system consisting of a series of heaters to warm the helium gas as it enters the dewar.
+													</p>
+													<p class="margBSSmall">For the measurements on 9-cell cavities, a solenoid was placed outside the cavity's helium vessel
+													to apply a magnetic field parallel to the cavities axis. Temperature sensors were placed on the tops and bottoms of cells
+													1, 5, and 9 to measure cool down dynamics. Again fluxgate magnetometers were placed inside the helium vessel to measure
+													the magnetic field.
+													</p>
+
+
+													
+												
+													
+						
+											</div>
+										</div>
+										<div class="col-md-10 col-md-offset-1">
+										<hr>
+										</div>	
+										
+										
+										<div class="block-single margBottom clearfix">
+											<div class="col-md-10 col-md-offset-1">
+												<h2 class="large-title margBSSmall">Cool Down Dynamics and Surface Resistance</h2>
+											
+											</div>
+										
 											<div class="col-md-5 col-md-offset-1">
-													<p class="margBSSmall">
+													<p class="margBSSmall">Early on, we discovered that the exact cooling dynamics near T<sub>c</sub> strongly impacted
+													the amount of magnetic field that would get trapped in a cavity's walls. Large spatial temperature gradients facilitated
+													efficient flux expulsion. Moreover, I found that the trapped magnetic field only affected the temperature independent
+													residual resistance, the temperature dependent BCS resistance was unaffected by cooling dynamics or ambient magnetic
+													field. 
+													</p>
+													<p class="margBSSmall">This discovery gave me another tool for studying magnetic field. I could now control the amount
+													of trapped magnetic flux by a combination of the applied ambient magnetic field from the coil and by adjusting the 
+													temperature gradient across the cavity during cooling. With this ability, I could systematically study how trapped
+													flux affected performance.
 													</p>
 											</div>
 											<div class="col-md-5">
 											<figure>
-												<a class="box" href="img/portfolio/N_Doping/qvse_comparison.png">
-												<img src="img/portfolio/Magnetic/klystron_assembly.JPG" alt="">
+												<a class="box" href="img/portfolio/Magnetic/res_vs_gradient.jpg">
+												<img src="img/portfolio/Magnetic/res_vs_gradient.jpg" alt="">
 												</a>
-												<figcaption class="figlabel">Me preparing a nitrogen-doped cavity for mangetic field measurements.</figcaption>
+												<figcaption class="figlabel">Residual resistance was found to decrease with larger spatial temperature gradients in the
+												Cornell HTC.</figcaption>
 											</figure>
 											</div>
 											
@@ -167,12 +225,16 @@
 											</div>
 											<div class="col-md-5 col-md-offset-1">
 											<figure>
-												<img src="img/portfolio/HTC/htc_on_truck.jpg" alt="">
-												<figcaption class="figlabel">Me assembling a nitrogen-doped cavity in the Cornell clean room.</figcaption>
+												<img src="img/portfolio/Magnetic/klystron_assembly.JPG" alt="">
+												<figcaption class="figlabel">Me assembling a nitrogen-doped cavity for magnetic field measurements.</figcaption>
 											</figure>
 											</div>
 											<div class="col-md-5">
-													<p class="margBSSmall">
+													<p class="margBSSmall"><br><br>I wanted to understand how cavity preparation would affect how a cavity reacts to magnetic fields.
+													It had earlier been shown at Fermilab that slow cooling nitrogen-doped cavities produced a large degradation in Q<sub>0</sub>
+													compared with slow cooling cavities with more standard preparation methods. We now understood that the change in Q<sub>0</sub>
+													from fast to slow cool (large to small temperature gradients) was a results of increased flux trapping when the cavities were
+													cooled slowly. Why though did nitrogen-doped cavities see a stronger affect on their Q<sub>0</sub>?
 													</p>
 											</div>
 											
@@ -181,14 +243,23 @@
 										
 										<div class="block-single margBottom clearfix">
 											<div class="col-md-5 col-md-offset-1">
-													<p class="margBSSmall">
+													<p class="margBSSmall">After an extensive study of cavities of different levels of doping along with more standard prepared cavities, 
+													I found the answer. Lowering of the mean free path of the RF penetration layer due to nitrogen-doping led to an increase in the sensitivity
+													of residual resistance to trapped magnetic flux - that is the amount of additional residual resistance from magnetic field trapped in the
+													cavity walls. Nitrogen-doped cavities had a significantly larger sensitivity to trapped flux than standard EP and EP+120&degC baked cavities.
+													</p>
+													<p class="margBSSmall">Furthermore, I found that a further lowering of the mean free path by stronger doping led to lower sensitivities to 
+													trapped flux. This means that there is a maximum in sensitivity at which point the trend will reverse and shorter mean free paths will lead to
+													lower sensitivity. I found that this maximum occurs at mean free paths of about 10 nm.
 													</p>
 
 											</div>
 											<div class="col-md-5">
 											<figure>
-												<img src="img/portfolio/N_doping/klystron_assembly.JPG" alt="">
-												<figcaption class="figlabel">Me putting the final touches on a nitrogen-doped cavity before pulse testing with our 2 MW klystron.</figcaption>
+											<a class="box" href="img/portfolio/Magnetic/mfp_vs_sensitivity.png">
+												<img src="img/portfolio/Magnetic/mfp_vs_sensitivity.png" alt="">
+												</a>
+												<figcaption class="figlabel">Sensitivity of residual resistance to trapped magnetic flux as a function of mean free path.</figcaption>
 											</figure>
 											</div>
 										<div class="col-md-10 col-md-offset-1">
@@ -205,49 +276,42 @@
 											</div>
 											
 											<div class="col-md-5 col-md-offset-1">
-											<a class="box" href="img/portfolio/N_Doping/lcls_single_cells_qvse.png">
 											<figure>
-											<a class="box" href="img/portfolio/N_Doping/lcls_single_cells_qvse.png">
-												<img src="img/portfolio/N_Doping/lcls_single_cells_qvse.png" alt="">
+											<a class="box" href="img/portfolio/Magnetic/mfp_vs_sensitivity_comp_theory.png">
+												<img src="img/portfolio/Magnetic/mfp_vs_sensitivity_comp_theory.png" alt="">
 													</a>
-												<figcaption class="figlabel">Q<sub>0</sub> results of the first pass for all five single-cell cavities doped with nitrogen</figcaption>
+												<figcaption class="figlabel">Sensitivity of residual resistance to trapped magnetic flux compared with theoretical predictions.</figcaption>
 											</figure>
 										
 											</div>
 											<div class="col-md-5">
-													<p class="margBSSmall">
+													<p class="margBSSmall"><br><br>The dependence of sensitivity of residual resistance to trapped magnetic flux on mean free path is well described
+													by theoretical models proposed by Alex Gurevich at Old Dominion University. His theory calculates how resistance is affected by oscillations
+													of vortex lines in a superconductor. From this theory, I was able to calculate the predicted sensitivity to trapped flux and compare with
+													my experimental results. I found that Gurevich's theory predicts the same behavior that I observed experimentally. 
 													</p>	
 											</div>
 											
-											
+	
 										</div>
 											
 											
-										<div class="block-single margBottom clearfix">
-											<div class="col-md-5 col-md-offset-1">
-													<p class="margBSSmall">
-													</p>	
-											</div>
-											<div class="col-md-5">
-											<figure>
-												<a class="box" href="img/portfolio/N_Doping/Hpk_vs_T2.png">
-												<img src="img/portfolio/N_Doping/Hpk_vs_T2.png" alt="">
-												</a>
-												<figcaption class="figlabel">Results of pulsed testing on a nitrogen-doped cavity, showing that quench was centered at a defect.</figcaption>
-											</figure>
-											</div>
-										<div class="col-md-10 col-md-offset-1">
-										<hr>
-										</div>		
+
+	
 											
-										</div>	
+
 										
 																	
 			
 										<div class="block-single margBottom clearfix">
 											<div class="col-md-10 col-md-offset-1">
 												<hr>
-													<p class="margBSSmall">
+													<p class="margBSSmall">Studying the effects of ambient magnetic field on cavity performance formed the crux of my Ph.D. work.
+													During the project I learned invaluable skills in experimental design, clean room practices, and project management. I was able
+													to significantly contribute to the understanding of magnetic fields and their impacts on SRF cavities. My work was the first to 
+													show why nitrogen-doped cavities suffer more under slow cool downs than more standard prepared cavities. I was also the first to
+													show a clear trend of sensitivity to trapped flux with mean free path. At the end of the day, this work led to numerous publications 
+													and oral presentations including one invited talk and three contributed talks.
 													<p>
 													
 													
